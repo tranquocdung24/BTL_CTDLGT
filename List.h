@@ -93,7 +93,7 @@ void List<T>::push_back(T &new_data) {
 template<class T>
 void List<T>::remove(int idx) {
     if (!isEmpty()) {
-        for (int i = idx; i < size; i++) {
+        for (int i = idx; i < size-1; i++) {
             data[i] = data[i+1];
         }
         size--;

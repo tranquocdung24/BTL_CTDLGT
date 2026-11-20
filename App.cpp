@@ -14,7 +14,13 @@ void App::run() {
         cout << "0. Thoat chuong trinh\n";
         cout << "======================================================\n";
         cout << "Nhap lua chon cua ban: ";
-        cin >> choice;
+		if (!(cin >> choice)) {
+		    cout << "Lua chon phai la so! Vui long chon lai.\n";
+		    cin.clear();
+		    cin.ignore(1000, '\n');
+		    choice = -1;
+		    continue;
+		}
 
         switch (choice) {
             case 1:
