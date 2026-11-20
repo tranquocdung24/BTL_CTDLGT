@@ -30,10 +30,7 @@ public:
 
 template<class T>
 void List<T>::autoResize() {
-    if (capacity == 0) {
-        capacity++;
-    }
-    else if (capacity == size) {
+    if (capacity == size) {
         capacity *=2;
         T* temp = new T[capacity];
         for (int i = 0; i < size; i++) {
