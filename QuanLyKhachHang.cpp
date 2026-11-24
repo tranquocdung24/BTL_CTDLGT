@@ -22,9 +22,7 @@ void QuanLyKhachHang::themKhachHang() {
             cout << "Loi! Ma KH " << kh.getMaKH() << " da ton tai! Vui long nhap lai.\n";
             kh.nhap();
         }
-        else {
-            ds.push_back(kh);
-        }
+        ds.push_back(kh);
         cout << "Ban co tiep tuc them khach hang nua khong (y/n)? ";
         cin >> tiepTuc;
         cin.ignore();
