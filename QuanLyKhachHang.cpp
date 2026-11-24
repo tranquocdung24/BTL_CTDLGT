@@ -18,8 +18,9 @@ void QuanLyKhachHang::themKhachHang() {
         cout << "\n--- NHAP THONG TIN KHACH HANG ---\n";
         KhachHang kh;
         kh.nhap();
-        if (TimTheoMa(kh.getMaKH()) != -1) {
+        while (TimTheoMa(kh.getMaKH()) != -1) {
             cout << "Loi! Ma KH " << kh.getMaKH() << " da ton tai! Vui long nhap lai.\n";
+            kh.nhap();
         }
         else {
             ds.push_back(kh);
