@@ -20,6 +20,6 @@ Họ và tên: Trần Quốc Dũng
 
 ### 2. Link video demo
 
-- Demo trên console: https://drive.google.com/file/d/1T8nIHXoIDqdiyKwiFaRwRZMqViSvivii/view?usp=drive_link
+- Demo trên console: https://drive.google.com/file/d/1lSgreOrhJn-J0x6Vmsi3FRXNb-88V9go/view?usp=sharing
 
-- Demo phần mềm: https://drive.google.com/file/d/147XZKijJbMMZWHJgijSVYOjD3itB3riO/view?usp=drive_link
+- Demo phần mềm: https://drive.google.com/file/d/1yMj2PF7tRIFtS429m6YAARAX3V15VN27/view?usp=sharing
