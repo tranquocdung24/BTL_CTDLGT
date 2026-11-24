@@ -82,14 +82,14 @@ bool List<T>::isEmpty() const {
 
 template<class T>
 void List<T>::push_back(T &new_data) {
-    size++;
     autoResize();
-    data[size-1] = new_data;
+    data[size] = new_data;
+    size++;
 }
 
 template<class T>
 void List<T>::remove(int idx) {
-    if (!isEmpty()) {
+    if (!isEmpty() && idx >= 0 && idx < size) {
         for (int i = idx; i < size-1; i++) {
             data[i] = data[i+1];
         }
